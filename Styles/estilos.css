@@ -12,7 +12,7 @@ section {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	background: #2196f3;
+	background: #f2f2f2;
 	overflow: hidden;
 }
 
@@ -28,7 +28,7 @@ section {
 	width: 320px;
 	box-shadow: 0 15px 50px rgba(0, 0, 0, .2);
 	filter: blur(4px);
-	background: #d1ebff;
+	background:  rgba(0, 0, 0, .95);
 	border-radius: 10px;
 }
 
@@ -41,7 +41,7 @@ section {
 	width: 100%;
 	padding: 40px;
 	padding-top: 90px;
-	color: #999;
+	color: #f2f2f2;
 }
 
 .testimonialBox .quote{
@@ -49,6 +49,11 @@ section {
 	top: 20px;
 	right: 30px;
 	opacity: .2;
+	filter:invert(1);
+}
+
+.testimonialBox .content p{
+	font-weight: 300;
 }
 
 .testimonialBox .details{
